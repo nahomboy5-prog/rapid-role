@@ -137,3 +137,15 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+scraper/venv/
+.env
+
+# Data
+# Remove data/jobs.json from gitignore if you want it to persist 
+# in the repo for Vercel, which your current scrape.yml requires.
